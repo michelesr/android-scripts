@@ -17,12 +17,12 @@ mkdir -p $BACKUP_DIR/priv-app
 
 cd /system/app
 mv -fv messaging CarrierDefaultApp CtsShimPrebuilt AntHalService Profiles LatinIME \
-       BasicDreams LockClock Calendar Email PhotoTable PicoTts Jelly NfcNci HTMLViewer \
-       EasterEgg FaceLock GoogleContactsSyncAdapter GoogleCalendarSyncAdapter $BACKUP_DIR/app/
+       BasicDreams LockClock Email PhotoTable PicoTts Jelly NfcNci HTMLViewer \
+       EasterEgg FaceLock GoogleContactsSyncAdapter $BACKUP_DIR/app/
 
 cd /system/priv-app
 mv -fv ManagedProvisioning CarrierConfig CtsShimPrivPrebuilt Velvet MmsService LineageSetupWizard \
-       SetupWizard AudioFX Tag Turbo Eleven Snap CalendarProvider CallLogBackup WeatherProvider \
+       SetupWizard AudioFX Tag Turbo Eleven Snap CallLogBackup WeatherProvider \
        Trebuchet GoogleBackupTransport GoogleOneTimeInitializer GooglePartnerSetup GoogleFeedback \
        EmergencyInfo $BACKUP_DIR/priv-app/
 
