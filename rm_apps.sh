@@ -17,7 +17,7 @@ mkdir -p $BACKUP_DIR/priv-app
 
 cd /system/app
 mv -fv messaging CarrierDefaultApp CtsShimPrebuilt AntHalService Profiles \
-       BasicDreams LockClock Email PhotoTable PicoTts Jelly NfcNci HTMLViewer \
+       BasicDreams LockClock Email PhotoTable PicoTts Jelly HTMLViewer \
        EasterEgg FaceLock GoogleContactsSyncAdapter $BACKUP_DIR/app/
 
 cd /system/priv-app
